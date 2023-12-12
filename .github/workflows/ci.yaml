@@ -61,7 +61,7 @@ jobs:
         name: changing the deployment of git repo
         with:
           repository: 'drohnow22/webapp01'
-          token: ${{ secrets.GIT_PASSWORD }}
+          token: ${{ secrets.GIT_TOKEN }}
           ref: main
       - name: modify the image
         run: |
