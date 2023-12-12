@@ -1,5 +1,4 @@
 # syntax=docker/dockerfile:1
-export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
 FROM python:slim-bullseye
 
