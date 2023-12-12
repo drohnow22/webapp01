@@ -62,6 +62,7 @@ jobs:
         with:
           repository: 'drohnow22/webapp01'
           token: ${{ secrets.GIT_PASSWORD }}
+          ref: main
       - name: modify the image
         run: |
           git config user.email rohnowdavid2@gmail.com
