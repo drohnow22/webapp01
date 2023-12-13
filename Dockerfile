@@ -3,6 +3,8 @@
 FROM python:slim-bullseye
 
 WORKDIR /app
+RUN mkdir images
+COPY images/itsworking.jpeg images/itsworking.jpeg
 
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
