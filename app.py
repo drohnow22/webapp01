@@ -10,7 +10,7 @@ def hello_world():
 <center>
 <h1>Demo on GitOps with ArgoCD and Github Actions.</h1> <br>
 <br>
-<img src="app/itsworking.jpeg?raw=true">
+<img src="images/itsworking.jpeg?raw=true">
 </center>
 </body>
 </html>
